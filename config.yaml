@@ -1,0 +1,20 @@
+source:
+  # Preferred: OneDrive/SharePoint direct-download URL (create a view-only link and append '?download=1')
+  onedrive_direct_url: "https://bimpioneers-my.sharepoint.com/:x:/g/personal/chaimae_balaki_bimpioneers_ma/EWVgXfELgNRInxYMsbIt3IQBFXuIL2I5TAprYu1XLnLJFQ?e=hdMCSE&download=1"
+
+#files:
+#  local_raw_excel: "/tmp/suivi_raw.xlsx"
+#  output_dir: "/var/www/suivi"
+#  dashboard_html: "/var/www/suivi/dashboard.html"
+#  clean_export_xlsx: "/var/www/suivi/export_clean.xlsx"
+files:
+  local_raw_excel: "./.cache/suivi_raw.xlsx"
+  output_dir: "./out"
+  dashboard_html: "./out/dashboard.html"
+  clean_export_xlsx: "./out/export_clean.xlsx"
+
+data:
+  sheet_name: "Suivi"
+  id_columns: ["Projet", "Code", "Dernies Models", "Rev Mod", "A faire", "Priorité", "Commentaires"]
+  revision_prefixes: ["COARC", "FOP", "PDV", "RSV"]
+  drop_blank_values: true

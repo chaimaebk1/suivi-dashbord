@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+<meta charset='utf-8'>
+<title>Suivi des Révisions</title>
+<script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+<style>body{font-family:Arial,Helvetica,sans-serif;margin:2rem;}.kpis{display:flex;gap:2rem;margin-bottom:2rem;}.kpis div{background:#f4f6fb;padding:1rem 1.5rem;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.1);}.kpi-label{display:block;font-size:0.9rem;color:#555;margin-bottom:0.5rem;}.kpi-value{font-size:1.6rem;font-weight:bold;color:#222;}h1{margin-bottom:1.5rem;}.charts{display:grid;gap:2rem;}.data-table{border-collapse:collapse;width:100%;margin-top:2rem;}.data-table th,.data-table td{border:1px solid #ddd;padding:0.5rem;text-align:left;}.data-table th{background:#fafafa;}
+</style>
+</head>
+<body>
+<h1>Suivi des Révisions</h1>
+<div class='kpis'><div><span class='kpi-label'>Projets distincts</span><span class='kpi-value'>22</span></div><div><span class='kpi-label'>Révisions totales</span><span class='kpi-value'>38</span></div></div>
+<div class='charts'>
+<div>                            <div id="13785ab9-1d5c-4283-939e-77008599c2ae" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("13785ab9-1d5c-4283-939e-77008599c2ae")) {                    Plotly.newPlot(                        "13785ab9-1d5c-4283-939e-77008599c2ae",                        [{"hovertemplate":"TypeRevision=%{x}\u003cbr\u003eTotal=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"textposition":"auto","x":["COARC","FOP","PDV","RSV"],"xaxis":"x","y":{"dtype":"i1","bdata":"GAkEAQ=="},"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"TypeRevision"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Total"}},"legend":{"tracegroupgap":0},"title":{"text":"R\u00e9visions par type"},"barmode":"relative","margin":{"l":40,"r":40,"t":40,"b":40}},                        {"responsive": true}                    )                };            </script>        </div>
+<div>                            <div id="a65141cc-c40a-469f-bdee-72a1124d63f8" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("a65141cc-c40a-469f-bdee-72a1124d63f8")) {                    Plotly.newPlot(                        "a65141cc-c40a-469f-bdee-72a1124d63f8",                        [{"hovertemplate":"Total=%{x}\u003cbr\u003eProjet=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","orientation":"h","showlegend":false,"textposition":"auto","x":{"dtype":"i1","bdata":"BQQEAwICAgIBAQEBAQEB"},"xaxis":"x","y":["Evry Lot A2B (Vivo)","Cormeille-Lot13","HARDRICOURT","Corbeil Essones-lot C1","L'isle Adam","DAX Route de Saubagnac","Meaux Beauval lot A","Residence c\u0153ur h\u00e9ritage","ALENYA","ANTIBES VAL CLARET \n(Vauban Littoral )","BOURG Saint MAURICE","CHALLES LES EAUX ","Les all\u00e9es de Sevign\u00e9","L'hermitage","Les all\u00e9es du capyron"],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Total"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Projet"}},"legend":{"tracegroupgap":0},"title":{"text":"Top 15 projets par r\u00e9visions"},"barmode":"relative","margin":{"l":40,"r":40,"t":40,"b":40}},                        {"responsive": true}                    )                };            </script>        </div>
+</div>
+<section>
+<h2>Table de données</h2>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Projet</th>
+      <th>Code</th>
+      <th>TypeRevision</th>
+      <th>NumRevision</th>
+      <th>Valeur</th>
+      <th>Dernies Models</th>
+      <th>Rev Mod</th>
+      <th>A faire</th>
+      <th>Priorité</th>
+      <th>Commentaires</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Evry Lot A2B (Vivo)</td>
+      <td>030-291J89</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-08-01 00:00:00</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>- [x] Export des issues pour depot sur rred\n- [x] Déposer les pdf dans Configurateurs\n- [x] Vérirication de l'intégration resolving\n- [ ] Vérification des plans de vente Resolving Dans 2 semaines</td>
+      <td>NaN</td>
+      <td>En intégration chez resolving \nDéposer les pdf \nVivo nom commercial voir le fichier déposé dans ZZ Maroc\nA comparer avec les plans de resolving</td>
+    </tr>
+    <tr>
+      <td>DAX Route de Saubagnac</td>
+      <td>030-240AW1</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-08-29 00:00:00</td>
+      <td>2025-08-04</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Cormeille-Lot13</td>
+      <td>030-295J88</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-09-01 00:00:00</td>
+      <td>2025-09-10</td>
+      <td>NaN</td>
+      <td>Mise à jour des cuisines ans la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Meaux Beauval lot A</td>
+      <td>030-277J82</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-08-19 00:00:00</td>
+      <td>2025-08-08</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>RIOM-Ecoquartier</td>
+      <td>030-263K88</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-09-05 00:00:00</td>
+      <td>2025-08-02</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>HARDRICOURT</td>
+      <td>030-278K18</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-09-04 00:00:00</td>
+      <td>2025-09-22</td>
+      <td>NaN</td>
+      <td>Facade</td>
+      <td>2.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Corbeil Essones-lot C1</td>
+      <td>030-291J94</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-09-11 00:00:00</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>il y a toujours des sujets dans corebeille essones</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>L'isle Adam</td>
+      <td>030-295J89</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-09-25 00:00:00</td>
+      <td>2025-09-12</td>
+      <td>NaN</td>
+      <td>bcf</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>THIAIS Lot 11</td>
+      <td>030-294J95</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-02 00:00:00</td>
+      <td>2025-09-29</td>
+      <td>#3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ALENYA</td>
+      <td>030-266A09</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-02 00:00:00</td>
+      <td>2025-09-24</td>
+      <td>#11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ANTIBES VAL CLARET \n(Vauban Littoral )</td>
+      <td>030 - 206YV7</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-08 00:00:00</td>
+      <td>2023-12-13</td>
+      <td>Bat B#2\nBat C#2\nBat D#2</td>
+      <td>- [ ] CoArc bâtiment B, C et D uniquement les R+2 et R+3 et parties privatives.\n- [ ] Etablir une liste des sujets pour resolving</td>
+      <td>1.0</td>
+      <td>BAT B : Murs ne remontent pas jusqu'aux dalles sur plusieurs niveaux\n</td>
+    </tr>
+    <tr>
+      <td>CHALLES LES EAUX</td>
+      <td>030 - 2XXXXX</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>x</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>3.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>STRASBOURG MUSAU</td>
+      <td>030-267L33</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-10 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>4.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Residence cœur héritage</td>
+      <td>214ZI9</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-09 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>Projets sur Bred Catenda\n'- [x] vérification de la maquette\n- [x] Vérification de la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>BOURG Saint MAURICE</td>
+      <td>273L32</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-16 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Les allées de Sevigné</td>
+      <td>253ZH5</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>2025-10-17 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>- [x] Cohérences Archi à déposer sur  Bred</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>L'hermitage</td>
+      <td>235ZI2</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>x</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Thorigné</td>
+      <td>235ZE4</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>x</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>My Work Orleans Clos du hameau</td>
+      <td>245ZC1</td>
+      <td>COARC</td>
+      <td>1</td>
+      <td>x</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Evry Lot A2B (Vivo)</td>
+      <td>030-291J89</td>
+      <td>COARC</td>
+      <td>2</td>
+      <td>2025-09-18 00:00:00</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>- [x] Export des issues pour depot sur rred\n- [x] Déposer les pdf dans Configurateurs\n- [x] Vérirication de l'intégration resolving\n- [ ] Vérification des plans de vente Resolving Dans 2 semaines</td>
+      <td>NaN</td>
+      <td>En intégration chez resolving \nDéposer les pdf \nVivo nom commercial voir le fichier déposé dans ZZ Maroc\nA comparer avec les plans de resolving</td>
+    </tr>
+    <tr>
+      <td>Cormeille-Lot13</td>
+      <td>030-295J88</td>
+      <td>COARC</td>
+      <td>2</td>
+      <td>2025-09-24 00:00:00</td>
+      <td>2025-09-10</td>
+      <td>NaN</td>
+      <td>Mise à jour des cuisines ans la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>HARDRICOURT</td>
+      <td>030-278K18</td>
+      <td>COARC</td>
+      <td>2</td>
+      <td>2025-09-25 00:00:00</td>
+      <td>2025-09-22</td>
+      <td>NaN</td>
+      <td>Facade</td>
+      <td>2.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Corbeil Essones-lot C1</td>
+      <td>030-291J94</td>
+      <td>COARC</td>
+      <td>2</td>
+      <td>2025-09-25 00:00:00</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>il y a toujours des sujets dans corebeille essones</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>HARDRICOURT</td>
+      <td>030-278K18</td>
+      <td>COARC</td>
+      <td>3</td>
+      <td>2025-10-02 00:00:00</td>
+      <td>2025-09-22</td>
+      <td>NaN</td>
+      <td>Facade</td>
+      <td>2.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Evry Lot A2B (Vivo)</td>
+      <td>030-291J89</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>x</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>- [x] Export des issues pour depot sur rred\n- [x] Déposer les pdf dans Configurateurs\n- [x] Vérirication de l'intégration resolving\n- [ ] Vérification des plans de vente Resolving Dans 2 semaines</td>
+      <td>NaN</td>
+      <td>En intégration chez resolving \nDéposer les pdf \nVivo nom commercial voir le fichier déposé dans ZZ Maroc\nA comparer avec les plans de resolving</td>
+    </tr>
+    <tr>
+      <td>DAX Route de Saubagnac</td>
+      <td>030-240AW1</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-09-22 00:00:00</td>
+      <td>2025-08-04</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Cormeille-Lot13</td>
+      <td>030-295J88</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-09-22 00:00:00</td>
+      <td>2025-09-10</td>
+      <td>NaN</td>
+      <td>Mise à jour des cuisines ans la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Meaux Beauval lot A</td>
+      <td>030-277J82</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>Faite</td>
+      <td>2025-08-08</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>HARDRICOURT</td>
+      <td>030-278K18</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-10-09 00:00:00</td>
+      <td>2025-09-22</td>
+      <td>NaN</td>
+      <td>Facade</td>
+      <td>2.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Corbeil Essones-lot C1</td>
+      <td>030-291J94</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-09-22 00:00:00</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>il y a toujours des sujets dans corebeille essones</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>L'isle Adam</td>
+      <td>030-295J89</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-09-22 00:00:00</td>
+      <td>2025-09-12</td>
+      <td>NaN</td>
+      <td>bcf</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Residence cœur héritage</td>
+      <td>214ZI9</td>
+      <td>FOP</td>
+      <td>1</td>
+      <td>2025-10-10 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>Projets sur Bred Catenda\n'- [x] vérification de la maquette\n- [x] Vérification de la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Cormeille-Lot13</td>
+      <td>030-295J88</td>
+      <td>FOP</td>
+      <td>2</td>
+      <td>2025-10-03 00:00:00</td>
+      <td>2025-09-10</td>
+      <td>NaN</td>
+      <td>Mise à jour des cuisines ans la fiche d'option</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Evry Lot A2B (Vivo)</td>
+      <td>030-291J89</td>
+      <td>PDV</td>
+      <td>None</td>
+      <td>Mardi\n21</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>- [x] Export des issues pour depot sur rred\n- [x] Déposer les pdf dans Configurateurs\n- [x] Vérirication de l'intégration resolving\n- [ ] Vérification des plans de vente Resolving Dans 2 semaines</td>
+      <td>NaN</td>
+      <td>En intégration chez resolving \nDéposer les pdf \nVivo nom commercial voir le fichier déposé dans ZZ Maroc\nA comparer avec les plans de resolving</td>
+    </tr>
+    <tr>
+      <td>Salaunes 6 Rue du Stade\n(Le hameau des Ardillères)</td>
+      <td>030-233AX1</td>
+      <td>PDV</td>
+      <td>None</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>2025-09-09</td>
+      <td>NaN</td>
+      <td>Bat A : MN Archi vs Plans Archi\nBAT B : MN Archi vs Resolving (Conforme sauf qq surfaces)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Les allées du capyron</td>
+      <td>NaN</td>
+      <td>PDV</td>
+      <td>None</td>
+      <td>x</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>Attendre les plans Resolving dans 2 semaines</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Poizat-GrandClement \n(Les ateliers du Parc)</td>
+      <td>030-268K92</td>
+      <td>PDV</td>
+      <td>None</td>
+      <td>2025-10-01 00:00:00</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Evry Lot A2B (Vivo)</td>
+      <td>030-291J89</td>
+      <td>RSV</td>
+      <td>None</td>
+      <td>10/10/2025\n16/10/2025</td>
+      <td>2025-09-18</td>
+      <td>NaN</td>
+      <td>- [x] Export des issues pour depot sur rred\n- [x] Déposer les pdf dans Configurateurs\n- [x] Vérirication de l'intégration resolving\n- [ ] Vérification des plans de vente Resolving Dans 2 semaines</td>
+      <td>NaN</td>
+      <td>En intégration chez resolving \nDéposer les pdf \nVivo nom commercial voir le fichier déposé dans ZZ Maroc\nA comparer avec les plans de resolving</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+</body>
+</html>
